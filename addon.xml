@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ddizi"
+       name="ddizi"
+       version="2"
+       provider-name="kadz2144">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.kadz2144"/>
+	  </requires>
+  <extension point="xbmc.python.pluginsource" library="ddizi.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>kadz2144 Team</summary>
+    <description>~~~ by kadz2144 TeaM ~~~~~~ ddizi ~~~</description>
+    <platform>all</platform>
+  </extension>
+</addon>
